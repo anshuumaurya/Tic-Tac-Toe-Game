@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #5f72bd, hsl(86, 83%, 53%));
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    padding-top: 5vmin;
+    font-size: 4vmin;
+    margin-bottom: 2vmin;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vmin;
+}
+
+.logo-img {
+    width: 100px;
+    height: auto;
+    filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.3));
+    border-radius: 50%;
+}
+
+.container {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+    padding: 1vmin;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 2rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: 2px solid #ffffff70;
+    font-size: 6vmin;
+    font-weight: bold;
+    background-color: #f1f1f1;
+    color: #333;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #ddd;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#reset, #new {
+    padding: 1rem 2rem;
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    margin-top: 2rem;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+}
+
+#reset:hover, #new:hover {
+    background-color: #ff4c4c;
+}
+
+#winner {
+    color: #fff;
+    font-size: 6vmin;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+}
+
+.msg {
+    height: 100vmin;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    z-index: 10;
+}
+
+.hide {
+    display: none;
+}
