@@ -22,6 +22,8 @@ Tech Stack:
 - CSS
 - JavaScript (Vanilla)
 
+🔗Live Demo-https://anshuumaurya.github.io/Tic-Tac-Toe-Game/  
+
 How to Play:
 1. Click on any box to make a move.
 2. Players take turns as 'O' and 'X'.
